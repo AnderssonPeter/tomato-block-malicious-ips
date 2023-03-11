@@ -108,3 +108,8 @@ To verify that the the scripts add log entries to `Status > Logs`, you can also 
 
 # Acknowledgements
 Thanks to [SilvrrGIT](https://www.github.com/SilvrrGIT) for having awesome ip block lists on his github.
+
+
+
+
+![](https://visitor-badge.glitch.me/badge?page_id=tomato-block-malicious-ips)
