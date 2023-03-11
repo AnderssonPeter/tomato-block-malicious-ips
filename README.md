@@ -1,4 +1,14 @@
-This page contains instruction how you can configure your *Fresh*Tomato router to block incoming requests malicious from source like tor, shodan, stretchoid and binary-edge.
+- [Block tor](#block-tor)
+  - [Init script](#init-script)
+  - [Firewall script](#firewall-script)
+  - [Schedule script](#schedule-script)
+- [Block shodan, stretchoid and binary-edge](#block-shodan-stretchoid-and-binary-edge)
+  - [Init script](#init-script-1)
+  - [Firewall script](#firewall-script-1)
+  - [Schedule script](#schedule-script-1)
+- [Verify / debug](#verify--debug)
+- [Todo](#todo)
+- [Acknowledgements](#acknowledgements)
 
 # Block tor
 ## Init script
