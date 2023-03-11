@@ -1,0 +1,4 @@
+theme: jekyll-theme-cayman
+markdown: GFM
+title: Block malicious traffic with a tomato router
+description: Scripts used to block malicious ip's like tor, shodan, stretchoid and binary-edge on your tomato router
