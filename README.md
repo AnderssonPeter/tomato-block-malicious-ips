@@ -101,7 +101,7 @@ update_ipset "other" "https://raw.githubusercontent.com/SilvrrGIT/IP-Lists/maste
 ```
 
 # Verify / debug
-To verify that the the scripts add log entries to `Status > Logs`, you can also `ssh` or `telnet` into the router and run `ipset list other`.
+To verify that the the scripts add log entries to `Status > Logs`, you can also `ssh` or `telnet` into the router and run `ipset list [name]`.
 
 # Todo
 * The ipset's currently get cleared when you reboot your router.
