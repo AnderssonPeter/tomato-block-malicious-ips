@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 markdown: GFM
 title: Block malicious traffic with a tomato router
-description: This page contains instruction how you can configure your FreshTomato router to block incoming malicious requests from sources like tor, shodan, stretchoid and binary-edge.
+description: This page contains instructions how you can configure your FreshTomato router to block incoming malicious requests from sources like tor, shodan, stretchoid and binary-edge.
