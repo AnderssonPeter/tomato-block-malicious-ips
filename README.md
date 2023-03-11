@@ -102,7 +102,7 @@ update_ipset "other" "https://raw.githubusercontent.com/SilvrrGIT/IP-Lists/maste
 
 # Verify / debug
 When the scripts run they add log entries to `Status > Logs`.
-You can also `ssh` or `telnet` into the router and run `ipset list [name]`. (replace `[name]` with `tor`, `shodan`, `strechoid`, `binary-edge` or `other`.
+You can also `ssh` or `telnet` into the router and run `ipset list [name]`. (replace `[name]` with `tor`, `shodan`, `strechoid`, `binary-edge` or `other`)
 
 # Todo
 * The ipset's currently get cleared when you reboot your router.
