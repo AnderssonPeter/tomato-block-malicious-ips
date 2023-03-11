@@ -95,13 +95,14 @@ update_ipset()
     done
 }
 update_ipset "shodan" "https://raw.githubusercontent.com/SilvrrGIT/IP-Lists/master/shodan"
-update_ipset "stretchoid" "https://raw.githubusercontent.com/SilvrrGIT/IP-Lists/master/stretchoid"
+update_ipset "stretchid" "https://raw.githubusercontent.com/SilvrrGIT/IP-Lists/master/stretchoid"
 update_ipset "binary-edge" "https://raw.githubusercontent.com/SilvrrGIT/IP-Lists/master/binary_edge"
 update_ipset "other" "https://raw.githubusercontent.com/SilvrrGIT/IP-Lists/master/other"
 ```
 
 # Verify / debug
-To verify that the the scripts add log entries to `Status > Logs`, you can also `ssh` or `telnet` into the router and run `ipset list [name]`.
+When the scripts run they add log entries to `Status > Logs`.
+You can also `ssh` or `telnet` into the router and run `ipset list [name]`. (replace ’[name]’ with ’tor’, ’shodan’, ’strechoid’, ’binary-edge’ or ’other’.
 
 # Todo
 * The ipset's currently get cleared when you reboot your router.
