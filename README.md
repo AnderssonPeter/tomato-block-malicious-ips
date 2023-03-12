@@ -7,7 +7,7 @@
   - [Firewall script](#firewall-script-1)
   - [Schedule script](#schedule-script-1)
 - [Verify / debug](#verify--debug)
-- [Todo](#todo)
+- [Todo / limitations](#todo--limitations)
 - [Acknowledgements](#acknowledgements)
 
 # Block tor
@@ -104,8 +104,9 @@ update_ipset "other" "https://raw.githubusercontent.com/SilvrrGIT/IP-Lists/maste
 When the scripts run they add log entries to `Status > Logs`.
 You can also `ssh` or `telnet` into the router and run `ipset list [name]`. (replace `[name]` with `tor`, `shodan`, `strechoid`, `binary-edge` or `other`)
 
-# Todo
+# Todo / limitations
 * The ipset's currently get cleared when you reboot your router.
+* currently only supports ipv4 connections
 
 # Acknowledgements
 Thanks to [SilvrrGIT](https://www.github.com/SilvrrGIT) for having awesome ip block lists on his github.
