@@ -84,7 +84,7 @@ update_ipset()
     result="`wget -qO- $url`"
     logger -p "info" "Fetched ${#result} bytes"
     logger -p "info" "Removing all ip's from $name ipset"
-    ipset flush tor
+    ipset flush $name
     echo "$result" |
     while IFS= read -r line; do
         match=$(echo "$line" | sed -n 's/\([0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+\).*/\1/p')
